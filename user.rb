@@ -17,4 +17,15 @@ class User
 	@password = password
 
 	def sign_in 
+		puts "Enter your username"
+		username = gets.chomp 
+		
+		puts "Hello #{username}. Please enter your password."
+		password = gets.chomp
 	end
+
+	# def sign_out
+	# end
+
+	# def tweet
+	# end
